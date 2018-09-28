@@ -64,6 +64,8 @@ Instructions:
 
     Your code goes here!
      */
-    // getJSON('../data/earth-like-results.json')
+   getJSON('../data/earth-like-results.json')
+    
+    createPlanetThumb(data);
   });
 })(document);
